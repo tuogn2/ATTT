@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Infor from './component/Infor';
+import Encryption from './component/Encryption';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-slate-300 h-[100vh] w-full'>
+      <div className='pt-5 pl-5 flex'>
+        <Infor />
+        <Encryption/>
+      </div>
     </div>
   );
 }
