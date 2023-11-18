@@ -5,7 +5,6 @@ import sha1 from 'sha1'
 import crc32 from 'crc32'
 import encodeUrl from 'encodeurl'
 function Encryption() {
-    const saltRounds = 10;
     const options = [
         { value: 'MD5' },
         { value: 'SHA-1' },
